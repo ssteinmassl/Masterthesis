@@ -1,0 +1,80 @@
+STAR1=            OFF
+STAR2=            ON
+DISK=             ON
+DISKRIM=          OFF
+DISKTORUS=        OFF
+INNERDISK=        OFF
+DISKSPOTS=        OFF
+ADC=              OFF
+THIRDLIGHT=       OFF
+IRRADIATION=      ON
+
+orbit.phasemin      =   0.0000
+orbit.phasemax      =   1.0000
+orbit.deltaphase    =   0.0100
+orbit.maxpindex     =   100
+orbit.phaseoffset   =   0.5000
+  Bandpass    Type     Min Wavelength  Max Wavelength
+      1         U
+      2         B
+      3         V
+      4         R
+      5         I
+      6         J
+      7         H
+      8         K
+NORMALIZE=  FITDATA  R
+
+syspars.p           =   1.69084800e+04
+syspars.omega       =   3.71599653e-04
+syspars.K2          =   5.27267709e+02
+syspars.q           =   0.1000
+syspars.i           =   0.8727
+syspars.a           =   2.03748581e+11
+syspars.zcm         =   1.85225983e+11
+syspars.M1 (gm)     =   1.591e+34
+syspars.M2 (gm)     =   1.591e+33
+syspars.M1 (Msun)   =   8.000
+syspars.M2 (Msun)   =   0.800
+syspars.rL1         =   5.75564096e+10
+syspars.VL1         =  -1.02331904e+16
+
+star2.targetNtiles  =   10000
+star2.Ntiles        =   10000
+star2.frontradius   =   5.75564e+10
+star2.poleradius    =   3.86871e+10
+star2.sideradius    =   4.02184e+10
+star2.backradius    =   4.65183e+10
+star2.volume        =   3.07136e+32
+star2.meanr         =   4.18550e+10
+star2.meang         =  -5.468e+04
+star2.logg          =    4.738
+star2.meanT         =   4600
+star2.beta          =   0.104
+star2.albedo        =    0.50
+star2.L             =   6.23839e+32
+
+disk.targetNtiles   =   10000
+disk.Ntiles         =   10176
+disk.e              =   0.000
+disk.zetazero       =    30.0
+disk.albedo         =    1.00
+disk.L              =   1.19847e+35
+
+maindisk.amin       =   5.0937e+06
+maindisk.amax       =   6.1125e+10
+maindisk.Hmax       =   6.1125e+09
+maindisk.Hpow       =   1.00
+maindisk.Tamax      =   4.000e+03
+maindisk.Tamin      =   4.586e+06
+maindisk.Tpow       =  -0.75
+
+diskedge.T          =   4.000e+03
+diskedge.Tspot      =   8.000e+03
+diskedge.ZetaMid    =   160.0
+diskedge.ZetaWidth  =     1.0
+
+Observed Light Curve Data Files:
+                      Minimum     Maximum     Data
+  Bandpass   Type    Wavelength  Wavelength  Points    Filename
+      1        R                                34   Rband.txt
